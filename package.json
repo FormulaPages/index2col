@@ -1,0 +1,24 @@
+{
+  "name": "formula-index2col",
+  "version": "1.0.0",
+  "description": "INDEX2COL function",
+  "main": "INDEX2COL.js",
+  "scripts": {
+    "test": "mocha test",
+    "build": "babel INDEX2COL.es6 -m umd --out-file INDEX2COL.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FormulaPages/index2col.git"
+  },
+  "author": "Peter Moresi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FormulaPages/index2col/issues"
+  },
+  "homepage": "https://github.com/FormulaPages/index2col#readme",
+  "dependencies": {
+    "formula-constants": "^1.0.3",
+    "formula-index2row": "^1.0.0"
+  }
+}
